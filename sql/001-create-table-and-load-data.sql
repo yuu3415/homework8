@@ -9,3 +9,4 @@ CREATE TABLE songs (
 
 INSERT INTO songs (music, singer) VALUES ("The Beginning", "OneOKRock");
 INSERT INTO songs (music, singer) VALUES ("ドライフラワー", "優里");
+INSERT INTO songs (music, singer) VALUES ("Lemon", "米津玄師");
