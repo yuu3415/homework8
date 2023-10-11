@@ -17,4 +17,9 @@ public class SongsService {
         List<Songs> songs = songsMapper.findAll();
         return songs;
     }
+
+    public String getMusic(int id) {
+        String music = songsMapper.findMusic(id);
+        return music;
+    }
 }

@@ -10,4 +10,7 @@ import java.util.List;
 public interface SongsMapper {
     @Select("SELECT * FROM songs")
     List<Songs> findAll();
+
+    @Select("SELECT music FROM songs WHERE id = #{id}")
+    String findMusic(int id);
 }
